@@ -173,7 +173,7 @@ public class NumberUtilitiesTest {
     @Test
     public void testGetEvenNumbers() {
         // : Given
-        String expected = "681012141618";     // Kris changed these tests
+        String expected = "681012141618";     // Kris changed these tests to EVEN NUMBERS
         int start = 5;
         int stop = 20;
 
@@ -187,7 +187,7 @@ public class NumberUtilitiesTest {
     @Test
     public void testGetOddNumbers() {
         // : Given
-        String expected = "5791113151719"; // Kris changed these tests
+        String expected = "5791113151719"; // Kris changed these tests to ODD NUMBERS
         int start = 5;
         int stop = 20;
         int step = 5;
